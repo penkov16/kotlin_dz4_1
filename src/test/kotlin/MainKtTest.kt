@@ -18,7 +18,7 @@ class MainKtTest {
         val previousTransfers = 1000
         val cardType = "Visa"
         val result = commission(cardType, previousTransfers, transferMade)
-        assertEquals(75000,result)
+        assertEquals(750000,result)
     }
     @Test
     fun commissionVk() {
